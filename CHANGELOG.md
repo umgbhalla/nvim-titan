@@ -1,4 +1,13 @@
-# 0.1.0 (2022-01-10)
+# [0.2.0](https://github.com/umgbhalla/nvim-titan/compare/v0.1.0...v0.2.0) (2022-01-11)
+
+
+### Features
+
+* **plugin:** new plugins added and configures, mulitple configs tweaked ([713247b](https://github.com/umgbhalla/nvim-titan/commit/713247b82e0d27553953ea93a792bac62fcc20c8))
+
+
+
+# [0.1.0](https://github.com/umgbhalla/nvim-titan/compare/07247e2e11bfdc92eb766034bef7ecab56d47abd...v0.1.0) (2022-01-10)
 
 
 ### Bug Fixes
