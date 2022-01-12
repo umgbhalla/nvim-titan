@@ -1,3 +1,18 @@
+# [0.4.0](https://github.com/umgbhalla/nvim-titan/compare/v0.3.0...v0.4.0) (2022-01-12)
+
+
+### Bug Fixes
+
+* **notify:** notify defualts updated ([f7859de](https://github.com/umgbhalla/nvim-titan/commit/f7859de68dc2e7eac4191db6d3e5d012cbbcb51f))
+
+
+### Features
+
+* **base:** added barbar & cool configs. updated configs for same ([4152071](https://github.com/umgbhalla/nvim-titan/commit/4152071ad55774e8ba4497c5c508a429b2e8072d))
+* **notify:** notify.lua configured ([a88513c](https://github.com/umgbhalla/nvim-titan/commit/a88513cd3b9ca2acb9446bc658329707136e7176))
+
+
+
 # [0.3.0](https://github.com/umgbhalla/nvim-titan/compare/v0.2.0...v0.3.0) (2022-01-12)
 
 
