@@ -61,7 +61,7 @@ return packer.startup(function(use)
 	use("antoinemadec/FixCursorHold.nvim") -- This is needed to fix lsp doc highlight
 	use("folke/which-key.nvim")
 	use("nacro90/numb.nvim")
-	--  use "romainl/vim-cool" --disables search highlighting when you are done searching and re-enables it when you search again
+	use("romainl/vim-cool") --disables search highlighting when you are done searching and re-enables it when you search again
 
 	-- Colorschemes
 	-- use "lunarvim/colorschemes" -- A bunch of colorschemes you can try out
