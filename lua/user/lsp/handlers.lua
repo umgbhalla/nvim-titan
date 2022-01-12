@@ -67,7 +67,7 @@ local function lsp_keymaps(bufnr)
 		bufnr,
 		"n",
 		"gd",
-		"<cmd>lua vim.lsp.buf.definition({includeDeclaration = false})<CR>",
+		"<cmd>lua vim.lsp.buf.definition({includeDeclaration = true})<CR>",
 		opts
 	)
 	vim.api.nvim_buf_set_keymap(bufnr, "n", "K", "<cmd>lua vim.lsp.buf.hover()<CR>", opts)
