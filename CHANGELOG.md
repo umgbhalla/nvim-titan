@@ -1,3 +1,17 @@
+# [0.3.0](https://github.com/umgbhalla/nvim-titan/compare/v0.2.0...v0.3.0) (2022-01-12)
+
+
+### Bug Fixes
+
+* **misc:** formatting ([f529a18](https://github.com/umgbhalla/nvim-titan/commit/f529a18a6c942cfcadd409be58a17edfb59c2694))
+
+
+### Features
+
+* **null-ls:** updated null-ls hook with format on save ([b602abe](https://github.com/umgbhalla/nvim-titan/commit/b602abe6aec7339d83c2db972e1e1549cdd260bc))
+
+
+
 # [0.2.0](https://github.com/umgbhalla/nvim-titan/compare/v0.1.0...v0.2.0) (2022-01-11)
 
 
