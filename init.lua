@@ -10,7 +10,6 @@ require("user.autopairs")
 require("user.comment")
 require("user.gitsigns")
 require("user.nvim-tree")
--- require("user.bufferline")
 require("user.lualine")
 require("user.toggleterm")
 require("user.project")
@@ -21,5 +20,10 @@ require("user.whichkey")
 require("user.autocommands")
 require("user.numb")
 require("user.notify")
+
+-- tab-bar
 require("user.barbar")
+-- require("user.bufferline") -- alt bar
+
+-- auto unhighlight search term
 require("user.cool")
