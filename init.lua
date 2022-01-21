@@ -1,5 +1,4 @@
 require("user.options")
-require("user.keymaps")
 require("user.plugins")
 require("user.colorscheme")
 require("user.cmp")
@@ -20,10 +19,9 @@ require("user.whichkey")
 require("user.autocommands")
 require("user.numb")
 require("user.notify")
+require("user.keymaps")
 
 -- tab-bar
-require("user.barbar")
--- require("user.bufferline") -- alt bar
-
+require("user.barbar") -- require("user.bufferline") -- alt bar
 -- auto unhighlight search term
 require("user.cool")

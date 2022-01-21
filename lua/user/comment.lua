@@ -23,7 +23,7 @@ comment.setup({
 	---@type table
 	toggler = {
 		---Line-comment toggle keymap
-		line = "<leader>/", -- originally "gcc"
+		line = "cc", -- originally "gcc"
 		---Block-comment toggle keymap
 		block = "gbc",
 	},
