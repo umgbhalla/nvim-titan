@@ -1,3 +1,17 @@
+# [0.5.0](https://github.com/umgbhalla/nvim-titan/compare/v0.4.0...v0.5.0) (2022-01-21)
+
+
+### Bug Fixes
+
+* **lsp:** fixed duplicated entries in quickfix list ([24cb05a](https://github.com/umgbhalla/nvim-titan/commit/24cb05a5c48d258fa2515b9c36ffb6782ac0f568))
+
+
+### Features
+
+* **base:** added new lsp configs and updated keybinds ([ebb473f](https://github.com/umgbhalla/nvim-titan/commit/ebb473fd73d65dd53303760038a96b3460933559))
+
+
+
 # [0.4.0](https://github.com/umgbhalla/nvim-titan/compare/v0.3.0...v0.4.0) (2022-01-12)
 
 
