@@ -17,9 +17,10 @@ require("user.indentline")
 require("user.alpha")
 require("user.whichkey")
 require("user.autocommands")
-require("user.numb")
+-- require("user.numb")
 require("user.notify")
 require("user.keymaps")
+require("user.diaglist")
 
 -- tab-bar
 require("user.barbar") -- require("user.bufferline") -- alt bar

@@ -17,7 +17,7 @@ local setup = {
 			operators = false, -- adds help for operators like d, y, ... and registers them for motion / text object completion
 			motions = true, -- adds help for motions
 			text_objects = true, -- help for text objects triggered after entering an operator
-			windows = true, -- default bindings on <c-w>
+			windows = false, -- default bindings on <c-w>
 			nav = true, -- misc bindings to work with windows
 			z = true, -- bindings for folds, spelling and others prefixed with z
 			g = true, -- bindings for prefixed with g
@@ -58,7 +58,7 @@ local setup = {
 	ignore_missing = true, -- enable this to hide mappings for which you didn't specify a label
 	hidden = { "<silent>", "<cmd>", "<Cmd>", "<CR>", "call", "lua", "^:", "^ " }, -- hide mapping boilerplate
 	show_help = false, -- show help message on the command line when the popup is visible
-	triggers = "auto", -- automatically setup triggers
+	triggers = "<leader>", -- automatically setup triggers
 	-- triggers = {"<leader>"} -- or specify a list manually
 	triggers_blacklist = {
 		-- list of mode / prefixes that should never be hooked by WhichKey
@@ -94,6 +94,8 @@ local mappings = {
 	},
 	["F"] = { "<cmd>Telescope live_grep theme=ivy<cr>", "Find Text" },
 	["P"] = { "<cmd>lua require('telescope').extensions.projects.projects()<cr>", "Projects" },
+	["x"] = { "<cmd>lua require('diaglist').open_all_diagnostics()<cr>", "diaglist tab" },
+	["d"] = { "<cmd>lua require('diaglist').open_buffer_diagnostics()<cr>", "diaglist all buff" },
 
 	p = {
 		name = "Packer",

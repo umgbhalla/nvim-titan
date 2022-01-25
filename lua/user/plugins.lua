@@ -88,6 +88,7 @@ return packer.startup(function(use)
 	--use("github/copilot.vim")
 	-- use("simrat39/rust-tools.nvim")
 	use("mfussenegger/nvim-dap")
+	use("onsails/diaglist.nvim")
 
 	-- Telescope
 	use("nvim-telescope/telescope.nvim")
