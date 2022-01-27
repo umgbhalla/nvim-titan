@@ -1,3 +1,12 @@
+## [0.6.1](https://github.com/umgbhalla/nvim-titan/compare/v0.6.0...v0.6.1) (2022-01-27)
+
+
+### Bug Fixes
+
+* **keys:** udpated keybinds ([e21b790](https://github.com/umgbhalla/nvim-titan/commit/e21b7909517d207c7afe4a674325207581eb7d25))
+
+
+
 # [0.6.0](https://github.com/umgbhalla/nvim-titan/compare/v0.5.0...v0.6.0) (2022-01-25)
 
 
@@ -47,15 +56,6 @@
 ### Features
 
 * **null-ls:** updated null-ls hook with format on save ([b602abe](https://github.com/umgbhalla/nvim-titan/commit/b602abe6aec7339d83c2db972e1e1549cdd260bc))
-
-
-
-# [0.2.0](https://github.com/umgbhalla/nvim-titan/compare/v0.1.0...v0.2.0) (2022-01-11)
-
-
-### Features
-
-* **plugin:** new plugins added and configures, mulitple configs tweaked ([713247b](https://github.com/umgbhalla/nvim-titan/commit/713247b82e0d27553953ea93a792bac62fcc20c8))
 
 
 
