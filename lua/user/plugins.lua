@@ -66,7 +66,8 @@ return packer.startup(function(use)
 	-- Colorschemes
 	-- use "lunarvim/colorschemes" -- A bunch of colorschemes you can try out
 	use("lunarvim/darkplus.nvim")
-
+	-- use("whatyouhide/vim-gotham")
+	use("rebelot/kanagawa.nvim")
 	-- cmp plugins
 	use("hrsh7th/nvim-cmp") -- The completion plugin
 	use("hrsh7th/cmp-buffer") -- buffer completions
@@ -86,7 +87,8 @@ return packer.startup(function(use)
 	use("tamago324/nlsp-settings.nvim") -- language server settings defined in json for
 	use("jose-elias-alvarez/null-ls.nvim") -- for formatters and linters
 	--use("github/copilot.vim")
-	-- use("simrat39/rust-tools.nvim")
+	use("simrat39/rust-tools.nvim")
+	use("rust-lang/rust.vim")
 	use("mfussenegger/nvim-dap")
 	use("onsails/diaglist.nvim")
 

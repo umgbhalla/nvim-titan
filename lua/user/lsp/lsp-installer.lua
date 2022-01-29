@@ -26,6 +26,10 @@ lsp_installer.on_server_ready(function(server)
 		opts = vim.tbl_deep_extend("force", pyright_opts, opts)
 	end
 
+	-- if server.name == "rome" then
+	-- 	local rome_opts = require("user.lsp.settings.rome")
+	-- 	opts = vim.tbl_deep_extend("force", rome_opts, opts)
+	-- end
 	-- if server.name == "rust-analyzer" then
 	-- 	require("settings.rust-tools").setup({})
 	-- end

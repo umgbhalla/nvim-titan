@@ -26,3 +26,4 @@ require("user.diaglist")
 require("user.barbar") -- require("user.bufferline") -- alt bar
 -- auto unhighlight search term
 require("user.cool")
+require("user.lsp.settings.rust_tools")
