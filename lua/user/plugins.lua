@@ -105,6 +105,9 @@ return packer.startup(function(use)
 	use("p00f/nvim-ts-rainbow")
 	use("nvim-treesitter/playground")
 
+	-- misc
+	use("andweeb/presence.nvim")
+
 	-- Git
 	use("lewis6991/gitsigns.nvim")
 
