@@ -94,6 +94,7 @@ local mappings = {
 	},
 	["F"] = { "<cmd>Telescope live_grep theme=ivy<cr>", "Find Text" },
 	["P"] = { "<cmd>lua require('telescope').extensions.projects.projects()<cr>", "Projects" },
+	-- diaglist keys
 	["x"] = { "<cmd>lua require('diaglist').open_all_diagnostics()<cr>", "diaglist tab" },
 	["d"] = { "<cmd>lua require('diaglist').open_buffer_diagnostics()<cr>", "diaglist all buff" },
 
