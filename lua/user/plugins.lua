@@ -108,6 +108,8 @@ return packer.startup(function(use)
 
 	-- misc
 	use("andweeb/presence.nvim")
+	use("blackCauldron7/surround.nvim")
+	use("tpope/vim-repeat")
 
 	-- Git
 	use("lewis6991/gitsigns.nvim")
