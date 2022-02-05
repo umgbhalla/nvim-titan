@@ -68,6 +68,7 @@ return packer.startup(function(use)
 	use("lunarvim/darkplus.nvim")
 	-- use("whatyouhide/vim-gotham")
 	use("rebelot/kanagawa.nvim")
+	use("tiagovla/tokyodark.nvim")
 	-- cmp plugins
 	use("hrsh7th/nvim-cmp") -- The completion plugin
 	use("hrsh7th/cmp-buffer") -- buffer completions

@@ -84,6 +84,12 @@ local opts = {
 				diagnostics = {
 					disabled = { "macro-error", "unresolved-proc-macro" },
 				},
+				inlayHints = {
+					enable = true,
+					chainingHints = true,
+					typeHints = true,
+					parameterHints = true,
+				},
 			},
 		},
 	},
