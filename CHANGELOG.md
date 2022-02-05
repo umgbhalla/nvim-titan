@@ -1,3 +1,12 @@
+# [0.8.0](https://github.com/umgbhalla/nvim-titan/compare/v0.7.0...v0.8.0) (2022-02-05)
+
+
+### Features
+
+* **plugin:** added surround plugin and its config ([f73186e](https://github.com/umgbhalla/nvim-titan/commit/f73186ed02008c96c8f6daf90d86bef284d9513f))
+
+
+
 # [0.7.0](https://github.com/umgbhalla/nvim-titan/compare/v0.6.1...v0.7.0) (2022-02-05)
 
 
@@ -42,21 +51,6 @@
 ### Features
 
 * **base:** added new lsp configs and updated keybinds ([ebb473f](https://github.com/umgbhalla/nvim-titan/commit/ebb473fd73d65dd53303760038a96b3460933559))
-
-
-
-# [0.4.0](https://github.com/umgbhalla/nvim-titan/compare/v0.3.0...v0.4.0) (2022-01-12)
-
-
-### Bug Fixes
-
-* **notify:** notify defualts updated ([f7859de](https://github.com/umgbhalla/nvim-titan/commit/f7859de68dc2e7eac4191db6d3e5d012cbbcb51f))
-
-
-### Features
-
-* **base:** added barbar & cool configs. updated configs for same ([4152071](https://github.com/umgbhalla/nvim-titan/commit/4152071ad55774e8ba4497c5c508a429b2e8072d))
-* **notify:** notify.lua configured ([a88513c](https://github.com/umgbhalla/nvim-titan/commit/a88513cd3b9ca2acb9446bc658329707136e7176))
 
 
 
