@@ -1,3 +1,18 @@
+# [0.7.0](https://github.com/umgbhalla/nvim-titan/compare/v0.6.1...v0.7.0) (2022-02-05)
+
+
+### Bug Fixes
+
+* **base:** mutiple config updates ([b47aaa2](https://github.com/umgbhalla/nvim-titan/commit/b47aaa2c062c8182102d7a2a4d02765f3642b85a))
+
+
+### Features
+
+* **lsp:** updated lsp configs for rust ([7f6c057](https://github.com/umgbhalla/nvim-titan/commit/7f6c05733210eeb42255ec56921cdbdce00e59eb))
+* **plugin:** add/configure new discord rick presence plugin ([7e3b8f5](https://github.com/umgbhalla/nvim-titan/commit/7e3b8f56a5f48bdb431726de427e196a3d2f39bc))
+
+
+
 ## [0.6.1](https://github.com/umgbhalla/nvim-titan/compare/v0.6.0...v0.6.1) (2022-01-27)
 
 
@@ -42,20 +57,6 @@
 
 * **base:** added barbar & cool configs. updated configs for same ([4152071](https://github.com/umgbhalla/nvim-titan/commit/4152071ad55774e8ba4497c5c508a429b2e8072d))
 * **notify:** notify.lua configured ([a88513c](https://github.com/umgbhalla/nvim-titan/commit/a88513cd3b9ca2acb9446bc658329707136e7176))
-
-
-
-# [0.3.0](https://github.com/umgbhalla/nvim-titan/compare/v0.2.0...v0.3.0) (2022-01-12)
-
-
-### Bug Fixes
-
-* **misc:** formatting ([f529a18](https://github.com/umgbhalla/nvim-titan/commit/f529a18a6c942cfcadd409be58a17edfb59c2694))
-
-
-### Features
-
-* **null-ls:** updated null-ls hook with format on save ([b602abe](https://github.com/umgbhalla/nvim-titan/commit/b602abe6aec7339d83c2db972e1e1549cdd260bc))
 
 
 
