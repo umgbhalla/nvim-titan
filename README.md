@@ -2,6 +2,10 @@
 
 [playlist](https://www.youtube.com/watch?v=ctH-a-1eUME&list=PLhoH5vyxr6Qq41NFL4GvhFp-WLd5xzIzZ).
 
+
+https://user-images.githubusercontent.com/67634565/152671094-72d7044b-1147-4f6f-a564-04ba5cc0da9c.mp4
+
+
 ## Try out this config
 
 ### With docker
@@ -11,7 +15,7 @@
     apk add git nodejs neovim ripgrep alpine-sdk --update
     git clone https://github.com/umgbhalla/nvim-titan ~/.config/nvim
     nvim -c ':PackerInstall' -c ':UpdateRemotePlugins' -c ':qall'
-    nvim
+    sh
     '
 ```
 
