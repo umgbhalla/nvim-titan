@@ -1,35 +1,62 @@
--- require("core")
+--[=====[ 
+local present, impatient = pcall(require, "impatient")
 
-require("user.options")
-require("user.plugins")
-require("user.colorscheme")
-require("user.cmp")
-require("user.lsp")
-require("user.telescope")
-require("user.treesitter")
+if present then
+   impatient.enable_profile()
+end
+
+local core_modules = {
+   "core.options",
+   "core.autocmds",
+   "core.mappings",
+}
+
+for _, module in ipairs(core_modules) do
+   local ok, err = pcall(require, module)
+   if not ok then
+      error("Error loading " .. module .. "\n\n" .. err)
+   end
+end
+
+-- non plugin mappings
+require("core.mappings").misc()
+
+-- check if custom init.lua file exists
+if vim.fn.filereadable(vim.fn.stdpath "config" .. "/lua/custom/init.lua") == 1 then
+   -- try to call custom init, if not successful, show error
+   local ok, err = pcall(require, "custom")
+   if not ok then
+      vim.notify("Error loading custom/init.lua\n\n" .. err)
+   end
+   return
+end
+--]=====]
+
+require("user.alpha")
+require("user.autocommands")
 require("user.autopairs")
-require("user.gitsigns")
-require("user.nvim-tree")
-require("user.lualine")
-require("user.toggleterm")
-require("user.project")
+require("user.barbar")
+require("user.cmpconf")
+require("user.colorscheme")
+require("user.comment")
+require("user.cool")
+require("user.diaglist")
+require("user.gitsignsconf")
 require("user.impatient")
 require("user.indentline")
-require("user.alpha")
-require("user.whichkey")
-require("user.autocommands")
-require("user.surround")
--- require("user.numb")
-require("user.notify")
 require("user.keymaps")
-require("user.comment")
-require("user.diaglist")
-
--- tab-bar
-require("user.barbar") -- require("user.bufferline") -- alt bar
--- auto unhighlight search term
-require("user.cool")
+require("user.lsp")
 require("user.lsp.settings.rust_tools")
-
--- discord rich presence
-require("user.presence")
+require("user.lualineconf")
+require("user.notify")
+require("user.nvim-treeconf")
+require("user.options")
+require("user.plugins")
+require("user.presenceconf")
+require("user.project")
+require("user.sidebar")
+require("user.surround")
+require("user.telescopeconf")
+require("user.toggletermconf")
+require("user.treesitter")
+require("user.whichkey")
