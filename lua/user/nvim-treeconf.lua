@@ -100,7 +100,7 @@ nvim_tree.setup({
 	},
 	quit_on_open = 1,
 	git_hl = 1,
-	disable_window_picker = 0,
+	disable_window_picker = 1,
 	root_folder_modifier = ":t",
 	show_icons = {
 		git = 1,
@@ -111,18 +111,20 @@ nvim_tree.setup({
 	},
 })
 
-tree = {}
+TREE = {}
 local g = vim.g
 g.nvim_tree_width = 30
 local tree_width = vim.g.nvim_tree_width
-tree.toggle = function()
-	require("nvim-tree").toggle()
+TREE.toggle = function()
+	nvim_tree.toggle()
 	if require("nvim-tree.view").win_open() then
 		require("bufferline.state").set_offset(tree_width + 1, "FileTree")
-		require("nvim-tree").find_file(true)
+		nvim_tree.find_file(true)
+		require("sidebar-nvim").close()
 	else
 		require("bufferline.state").set_offset(0)
+		require("sidebar-nvim").open()
 	end
 end
 
-return tree
+return TREE

@@ -84,7 +84,7 @@ local mappings = {
 		"<cmd>lua require('telescope.builtin').buffers(require('telescope.themes').get_dropdown{previewer = false})<cr>",
 		"Buffers",
 	},
-	["e"] = { "<cmd> lua tree.toggle()<cr>", "Explorer" },
+	["e"] = { "<cmd> lua TREE.toggle()<cr>", "Explorer" },
 	["w"] = { "<cmd>w!<CR>", "Save" },
 	["c"] = { "<cmd>Bdelete!<CR>", "Close Buffer" },
 	["h"] = { "<cmd>nohlsearch<CR>", "No Highlight" },
@@ -95,6 +95,7 @@ local mappings = {
 	["F"] = { "<cmd>Telescope live_grep theme=ivy<cr>", "Find Text" },
 	["P"] = { "<cmd>lua require('telescope').extensions.projects.projects()<cr>", "Projects" },
 	-- diaglist keys
+	["q"] = { "<cmd>lua vim.cmd('qa')<cr>", "Quit all" },
 	["x"] = { "<cmd>lua require('diaglist').open_all_diagnostics()<cr>", "diaglist tab" },
 	["d"] = { "<cmd>lua require('diaglist').open_buffer_diagnostics()<cr>", "diaglist all buff" },
 

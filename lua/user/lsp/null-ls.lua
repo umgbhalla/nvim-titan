@@ -14,16 +14,15 @@ null_ls.setup({
 		formatting.prettier.with({ extra_args = { "--no-semi", "--single-quote", "--jsx-single-quote" } }),
 		formatting.black.with({ extra_args = { "--fast" } }),
 		formatting.stylua,
-		-- diagnostics.flake8
-    -- Set a formatter
-    formatting.rufo,
-    -- Set a linter
-    diagnostics.rubocop,
+		diagnostics.flake8,
+		-- Set a formatter
+		formatting.rufo,
+		-- Set a linter
+		diagnostics.rubocop,
 	},
 	on_attach = function(client)
 		if client.resolved_capabilities.document_formatting then
-	  vim.cmd "autocmd BufWritePre <buffer> lua vim.lsp.buf.formatting_sync()"
-    end
+			vim.cmd("autocmd BufWritePre <buffer> lua vim.lsp.buf.formatting_sync()")
+		end
 	end,
 })
-
