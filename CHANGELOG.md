@@ -1,3 +1,17 @@
+# [0.10.0](https://github.com/umgbhalla/nvim-titan/compare/v0.9.0...v0.10.0) (2022-02-08)
+
+
+### Bug Fixes
+
+* **base:** wip ([1cacab3](https://github.com/umgbhalla/nvim-titan/commit/1cacab30a57ba9c79e1fd810bfe2220f48a12e71))
+
+
+### Features
+
+* **base:** updated structure , wip ([083f415](https://github.com/umgbhalla/nvim-titan/commit/083f4159eee61021ee31d362cf55bc43b7f75ee0))
+
+
+
 # [0.9.0](https://github.com/umgbhalla/nvim-titan/compare/v0.8.0...v0.9.0) (2022-02-08)
 
 
@@ -42,15 +56,6 @@
 ### Bug Fixes
 
 * **keys:** udpated keybinds ([e21b790](https://github.com/umgbhalla/nvim-titan/commit/e21b7909517d207c7afe4a674325207581eb7d25))
-
-
-
-# [0.6.0](https://github.com/umgbhalla/nvim-titan/compare/v0.5.0...v0.6.0) (2022-01-25)
-
-
-### Features
-
-* **base:** added diaglist, updates other lsp configs and keybinds ([5713ff6](https://github.com/umgbhalla/nvim-titan/commit/5713ff654a7211244901a6e38f7bd51705b35db8))
 
 
 
