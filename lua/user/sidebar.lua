@@ -7,7 +7,7 @@ local opts = {
 	side = "right",
 	initial_width = 40,
 	update_interval = 1000,
-	sections = { "datetime", "buffers", "diagnostics", "files" },
+	sections = { "todos", "buffers", "diagnostics", "files" },
 	section_separator = { "", "", "" },
 	containers = {
 		attach_shell = "/bin/sh",
@@ -15,8 +15,12 @@ local opts = {
 		interval = 5000,
 	},
 	datetime = { format = "%a %b %d, %H:%M", clocks = { { name = "local" } } },
-	todos = { ignored_paths = { "~" } },
-	disable_closing_prompt = false,
+	todos = {
+		icon = "",
+		ignored_paths = { "~" }, -- ignore certain paths, this will prevent huge folders like $HOME to hog Neovim with TODO searching
+		initially_closed = false, -- whether the groups should be initially closed on start. You can manually open/close groups later.
+	},
+	disable_closing_prompt = true,
 
 	buffers = {
 		icon = "",
