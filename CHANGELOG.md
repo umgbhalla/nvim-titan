@@ -1,3 +1,17 @@
+# [0.11.0](https://github.com/umgbhalla/nvim-titan/compare/v0.10.0...v0.11.0) (2022-02-09)
+
+
+### Bug Fixes
+
+* **base:** refactor ([4c7b824](https://github.com/umgbhalla/nvim-titan/commit/4c7b824543cc71d125ba5b66c9ad01cb2c9c9e38))
+
+
+### Features
+
+* **options:** options.lua core init migrated ([a363a56](https://github.com/umgbhalla/nvim-titan/commit/a363a5672a9c43067d3a5169d1a6ca228db9e02b))
+
+
+
 # [0.10.0](https://github.com/umgbhalla/nvim-titan/compare/v0.9.0...v0.10.0) (2022-02-08)
 
 
@@ -47,15 +61,6 @@
 
 * **lsp:** updated lsp configs for rust ([7f6c057](https://github.com/umgbhalla/nvim-titan/commit/7f6c05733210eeb42255ec56921cdbdce00e59eb))
 * **plugin:** add/configure new discord rick presence plugin ([7e3b8f5](https://github.com/umgbhalla/nvim-titan/commit/7e3b8f56a5f48bdb431726de427e196a3d2f39bc))
-
-
-
-## [0.6.1](https://github.com/umgbhalla/nvim-titan/compare/v0.6.0...v0.6.1) (2022-01-27)
-
-
-### Bug Fixes
-
-* **keys:** udpated keybinds ([e21b790](https://github.com/umgbhalla/nvim-titan/commit/e21b7909517d207c7afe4a674325207581eb7d25))
 
 
 
