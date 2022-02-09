@@ -1,14 +1,8 @@
--- IMPORTANT NOTE : This is default config, so dont change anything here.
--- use custom/chadrc.lua instead
-
 local M = {}
 
 M.options = {
-	-- custom = {}
-	-- general nvim/vim options , check :h optionname to know more about an option
-
 	clipboard = "unnamedplus",
-	cmdheight = 1,
+	cmdheight = 2,
 	ruler = false,
 	hidden = true,
 	ignorecase = true,
@@ -16,29 +10,17 @@ M.options = {
 	mapleader = " ",
 	mouse = "a",
 	number = true,
-	numberwidth = 2,
-	relativenumber = false,
+	numberwidth = 4,
+	relativenumber = true,
 	expandtab = true,
 	shiftwidth = 2,
 	smartindent = true,
-	tabstop = 8,
-	timeoutlen = 400,
+	tabstop = 2,
+	timeoutlen = 100,
 	updatetime = 250,
 	undofile = true,
 	fillchars = { eob = " " },
 	shadafile = vim.opt.shadafile,
-
-	-- NvChad options
-	nvChad = {
-		copy_cut = true, -- copy cut text ( x key ), visual and normal mode
-		copy_del = true, -- copy deleted text ( dd key ), visual and normal mode
-		insert_nav = true, -- navigation in insertmode
-		window_nav = true,
-
-		-- updater
-		update_url = "https://github.com/NvChad/NvChad",
-		update_branch = "main",
-	},
 }
 
 ---- UI -----

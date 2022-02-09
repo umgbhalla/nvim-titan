@@ -23,7 +23,7 @@ local createdir = function()
 end
 
 local neovide_config = function()
-	vim.cmd([[set guifont=Lig\ Operator\ Mono:h12]])
+	vim.cmd([[set guifont=Lig\ Operator\ Mono:h10]])
 	vim.g.neovide_refresh_rate = 60
 	vim.g.neovide_cursor_vfx_mode = "railgun"
 	vim.g.neovide_no_idle = true
@@ -37,9 +37,8 @@ local neovide_config = function()
 end
 
 local load_core = function()
-	-- local pack = require("core.pack")
 	createdir()
-	-- pack.ensure_plugins()
+
 	neovide_config()
 
 	require("core.options")
@@ -51,7 +50,7 @@ local load_core = function()
 	if present then
 		impatient.enable_profile()
 	end
-	-- require("core")
+
 	require("core.autocmds")
 
 	require("user.alpha")
@@ -70,7 +69,6 @@ local load_core = function()
 	require("user.lualineconf")
 	require("user.notify")
 	require("user.nvim-treeconf")
-	require("user.options")
 	require("user.plugins")
 	require("user.presenceconf")
 	require("user.project")
@@ -80,10 +78,6 @@ local load_core = function()
 	require("user.toggletermconf")
 	require("user.treesitter")
 	require("user.whichkey")
-
-	-- pack.load_compile()
-
-	-- vim.cmd([[colorscheme catppuccin]])
 end
 
 load_core()
