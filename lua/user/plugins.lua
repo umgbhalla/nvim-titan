@@ -110,6 +110,7 @@ return packer.startup(function(use)
 	use("andweeb/presence.nvim")
 	use("blackCauldron7/surround.nvim")
 	use("tpope/vim-repeat")
+	use("wfxr/minimap.vim")
 	use("sidebar-nvim/sidebar.nvim")
 
 	-- Git
