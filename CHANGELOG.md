@@ -1,3 +1,13 @@
+# [0.12.0](https://github.com/umgbhalla/nvim-titan/compare/v0.11.0...v0.12.0) (2022-02-12)
+
+
+### Features
+
+* **core:** updated core configs for default and options ([763baa0](https://github.com/umgbhalla/nvim-titan/commit/763baa01f69de6de9aa07fe9f0972d0ac3246e4e))
+* **user:** temp updated to user[depricating] dir ([c861950](https://github.com/umgbhalla/nvim-titan/commit/c8619503a76b10d36a9a4daed8666b4a4fbe4c0b))
+
+
+
 # [0.11.0](https://github.com/umgbhalla/nvim-titan/compare/v0.10.0...v0.11.0) (2022-02-09)
 
 
@@ -46,21 +56,6 @@
 ### Features
 
 * **plugin:** added surround plugin and its config ([f73186e](https://github.com/umgbhalla/nvim-titan/commit/f73186ed02008c96c8f6daf90d86bef284d9513f))
-
-
-
-# [0.7.0](https://github.com/umgbhalla/nvim-titan/compare/v0.6.1...v0.7.0) (2022-02-05)
-
-
-### Bug Fixes
-
-* **base:** mutiple config updates ([b47aaa2](https://github.com/umgbhalla/nvim-titan/commit/b47aaa2c062c8182102d7a2a4d02765f3642b85a))
-
-
-### Features
-
-* **lsp:** updated lsp configs for rust ([7f6c057](https://github.com/umgbhalla/nvim-titan/commit/7f6c05733210eeb42255ec56921cdbdce00e59eb))
-* **plugin:** add/configure new discord rick presence plugin ([7e3b8f5](https://github.com/umgbhalla/nvim-titan/commit/7e3b8f56a5f48bdb431726de427e196a3d2f39bc))
 
 
 
