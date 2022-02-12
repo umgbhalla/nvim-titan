@@ -2,8 +2,8 @@
 -- vim.cmd [[ autocmd BufEnter * if &buftype != "terminal" | lcd %:p:h | endif ]]
 
 -- Use relative & absolute line numbers in 'n' & 'i' modes respectively
-vim.cmd([[ au InsertLeave * set relativenumber ]])
-vim.cmd([[ au InsertEnter * set norelativenumber ]])
+-- vim.cmd([[ au InsertLeave * set relativenumber ]])
+-- vim.cmd([[ au InsertEnter * set norelativenumber ]])
 
 -- Don't show any numbers inside terminals
 -- vim.cmd([[ au TermOpen term://* setlocal nonumber norelativenumber | setfiletype terminal ]])
@@ -15,7 +15,14 @@ vim.cmd([[ au InsertEnter * set norelativenumber ]])
 -- vim.cmd [[ au BufReadPost * if expand('%:p') !~# '\m/\.git/' && line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g'\"" | endif ]]
 -- File extension specific tabbing
 vim.cmd([[ autocmd Filetype python setlocal expandtab tabstop=4 shiftwidth=4 softtabstop=4 ]])
-
+vim.cmd([[
+augroup ScrollbarInit
+  autocmd!
+  autocmd WinScrolled,VimResized,QuitPre * silent! lua require('scrollbar').show()
+  autocmd WinEnter,FocusGained           * silent! lua require('scrollbar').show()
+  autocmd WinLeave,BufLeave,BufWinLeave,FocusLost            * silent! lua require('scrollbar').clear()
+augroup end
+]])
 vim.cmd([[
   augroup _general_settings
     autocmd!
