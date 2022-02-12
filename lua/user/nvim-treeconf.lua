@@ -120,10 +120,10 @@ TREE.toggle = function()
 	if require("nvim-tree.view").win_open() then
 		require("bufferline.state").set_offset(tree_width + 1, "FileTree")
 		nvim_tree.find_file(true)
-		require("sidebar-nvim").close()
+		-- require("sidebar-nvim").close()
 	else
 		require("bufferline.state").set_offset(0)
-		require("sidebar-nvim").open()
+		-- require("sidebar-nvim").open()
 	end
 end
 

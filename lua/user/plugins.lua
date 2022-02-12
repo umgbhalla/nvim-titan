@@ -111,8 +111,12 @@ return packer.startup(function(use)
 	use("blackCauldron7/surround.nvim")
 	use("tpope/vim-repeat")
 	use("wfxr/minimap.vim")
+	use("Xuyuanp/scrollbar.nvim")
 	use("sidebar-nvim/sidebar.nvim")
+	use("simrat39/symbols-outline.nvim")
 
+	-- Smooth scrolling
+	use("karb94/neoscroll.nvim")
 	-- Git
 	use("lewis6991/gitsigns.nvim")
 

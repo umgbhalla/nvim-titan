@@ -3,9 +3,9 @@ if not status_ok then
 	return
 end
 local opts = {
-	open = true,
+	open = false,
 	side = "right",
-	initial_width = 40,
+	initial_width = 70,
 	update_interval = 1000,
 	sections = { "todos", "buffers", "diagnostics", "files" },
 	section_separator = { "", "", "" },
