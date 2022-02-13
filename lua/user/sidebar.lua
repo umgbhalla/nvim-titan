@@ -24,7 +24,7 @@ local opts = {
 
 	buffers = {
 		icon = "",
-		ignored_buffers = {}, -- ignore buffers by regex
+		ignored_buffers = { "gitmodules" }, -- ignore buffers by regex
 	},
 	files = {
 		icon = "",
