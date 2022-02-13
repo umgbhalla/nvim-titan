@@ -114,6 +114,9 @@ return packer.startup(function(use)
 	use("Xuyuanp/scrollbar.nvim")
 	use("sidebar-nvim/sidebar.nvim")
 	use("simrat39/symbols-outline.nvim")
+	use("norcalli/nvim-colorizer.lua")
+	use("pseewald/vim-anyfold")
+	use("arecarn/vim-fold-cycle")
 
 	-- Smooth scrolling
 	use("karb94/neoscroll.nvim")
