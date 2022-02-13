@@ -70,6 +70,11 @@ vim.cmd([[set formatoptions-=cro]])
 -- vim.g.minimap_width = 10
 -- vim.g.minimap_auto_start = 0
 -- vim.g.minimap_auto_start_win_enter = 0
+--
+-- Won't close when max fold is opened
+vim.g.fold_cycle_toggle_max_open = 0
+-- Won't open when max fold is closed
+vim.g.fold_cycle_toggle_max_close = 0
 
 --Defer loading shada until after startup_
 vim.opt.shadafile = "NONE"
