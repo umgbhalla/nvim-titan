@@ -1,3 +1,18 @@
+# [0.13.0](https://github.com/umgbhalla/nvim-titan/compare/v0.12.0...v0.13.0) (2022-02-13)
+
+
+### Bug Fixes
+
+* **core:** added req for colorizer ([8f56b25](https://github.com/umgbhalla/nvim-titan/commit/8f56b25f1a1337bb858bae5959c0581c70fcbbae))
+* **core:** updated options for fold cycle plugin ([6bc49a9](https://github.com/umgbhalla/nvim-titan/commit/6bc49a935690c237efb3b903c6695445bd8abe35))
+
+
+### Features
+
+* **plugin:** new plugins added ([31f298f](https://github.com/umgbhalla/nvim-titan/commit/31f298feebb01d3ad157abe9b4245771ba886f66))
+
+
+
 # [0.12.0](https://github.com/umgbhalla/nvim-titan/compare/v0.11.0...v0.12.0) (2022-02-12)
 
 
@@ -47,15 +62,6 @@
 ### Features
 
 * **base:** multipart refactor, new plugins ([feb5400](https://github.com/umgbhalla/nvim-titan/commit/feb5400be459590e07e5946868c1866ce847597f))
-
-
-
-# [0.8.0](https://github.com/umgbhalla/nvim-titan/compare/v0.7.0...v0.8.0) (2022-02-05)
-
-
-### Features
-
-* **plugin:** added surround plugin and its config ([f73186e](https://github.com/umgbhalla/nvim-titan/commit/f73186ed02008c96c8f6daf90d86bef284d9513f))
 
 
 
