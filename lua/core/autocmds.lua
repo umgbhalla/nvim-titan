@@ -60,4 +60,5 @@ vim.cmd([[
   augroup end
 ]])
 
+vim.cmd([[autocmd Filetype * AnyFoldActivate]]) --  activate for all filetypes
 -- Autoformat
