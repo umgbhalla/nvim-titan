@@ -89,6 +89,7 @@ local load_core = function()
 		post_hook = nil, -- Function to run after the scrolling animation ends
 		performance_mode = false, -- Disable "Performance Mode" on all buffers.
 	})
+	require("colorizer").setup()
 end
 
 load_core()
