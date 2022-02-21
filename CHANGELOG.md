@@ -1,3 +1,12 @@
+## [0.13.1](https://github.com/umgbhalla/nvim-titan/compare/v0.13.0...v0.13.1) (2022-02-21)
+
+
+### Bug Fixes
+
+* **core:** updated autocommand for fold ([d6658e9](https://github.com/umgbhalla/nvim-titan/commit/d6658e9811f6b71bafb562abb03689b093a042c9))
+
+
+
 # [0.13.0](https://github.com/umgbhalla/nvim-titan/compare/v0.12.0...v0.13.0) (2022-02-13)
 
 
@@ -48,20 +57,6 @@
 ### Features
 
 * **base:** updated structure , wip ([083f415](https://github.com/umgbhalla/nvim-titan/commit/083f4159eee61021ee31d362cf55bc43b7f75ee0))
-
-
-
-# [0.9.0](https://github.com/umgbhalla/nvim-titan/compare/v0.8.0...v0.9.0) (2022-02-08)
-
-
-### Bug Fixes
-
-* **base:** wip new dir structure ([5088de5](https://github.com/umgbhalla/nvim-titan/commit/5088de5bf3aef989b2bd1571eef178c1e5d54096))
-
-
-### Features
-
-* **base:** multipart refactor, new plugins ([feb5400](https://github.com/umgbhalla/nvim-titan/commit/feb5400be459590e07e5946868c1866ce847597f))
 
 
 
