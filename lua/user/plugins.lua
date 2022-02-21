@@ -108,7 +108,7 @@ return packer.startup(function(use)
 
 	-- misc
 	use("andweeb/presence.nvim")
-	use("blackCauldron7/surround.nvim")
+	use("umgbhalla/surround.nvim")
 	use("tpope/vim-repeat")
 	use("wfxr/minimap.vim")
 	use("Xuyuanp/scrollbar.nvim")
