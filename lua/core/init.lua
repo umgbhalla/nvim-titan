@@ -48,9 +48,7 @@ local load_core = function()
 	-- require("core.mapping")
 	-- require("keymap")
 	-- require("core.event")
-
 	require("core.autocmds")
-
 	require("user.alpha")
 	require("user.autopairs")
 	require("user.barbar")
