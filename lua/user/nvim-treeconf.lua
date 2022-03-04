@@ -117,14 +117,14 @@ g.nvim_tree_width = 30
 local tree_width = vim.g.nvim_tree_width
 TREE.toggle = function()
 	nvim_tree.toggle()
-	if require("nvim-tree.view").win_open() then
-		require("bufferline.state").set_offset(tree_width + 1, "FileTree")
-		nvim_tree.find_file(true)
-		-- require("sidebar-nvim").close()
-	else
-		require("bufferline.state").set_offset(0)
-		-- require("sidebar-nvim").open()
-	end
+	-- if require("nvim-tree.view").win_open() then
+	-- 	require("bufferline.state").set_offset(tree_width + 1, "FileTree")
+	-- 	nvim_tree.find_file(true)
+	-- 	-- require("sidebar-nvim").close()
+	-- else
+	-- 	require("bufferline.state").set_offset(0)
+	-- 	-- require("sidebar-nvim").open()
+	-- end
 end
 
 return TREE
