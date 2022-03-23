@@ -1,3 +1,12 @@
+# [0.14.0](https://github.com/umgbhalla/nvim-titan/compare/v0.13.1...v0.14.0) (2022-03-23)
+
+
+### Features
+
+* **lua:** updated autocommands ([8d73e0f](https://github.com/umgbhalla/nvim-titan/commit/8d73e0f24519dd12ada3e532983bf946bdbea32a))
+
+
+
 ## [0.13.1](https://github.com/umgbhalla/nvim-titan/compare/v0.13.0...v0.13.1) (2022-02-21)
 
 
@@ -43,20 +52,6 @@
 ### Features
 
 * **options:** options.lua core init migrated ([a363a56](https://github.com/umgbhalla/nvim-titan/commit/a363a5672a9c43067d3a5169d1a6ca228db9e02b))
-
-
-
-# [0.10.0](https://github.com/umgbhalla/nvim-titan/compare/v0.9.0...v0.10.0) (2022-02-08)
-
-
-### Bug Fixes
-
-* **base:** wip ([1cacab3](https://github.com/umgbhalla/nvim-titan/commit/1cacab30a57ba9c79e1fd810bfe2220f48a12e71))
-
-
-### Features
-
-* **base:** updated structure , wip ([083f415](https://github.com/umgbhalla/nvim-titan/commit/083f4159eee61021ee31d362cf55bc43b7f75ee0))
 
 
 
