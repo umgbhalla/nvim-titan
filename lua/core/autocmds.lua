@@ -29,7 +29,7 @@ vim.cmd([[
   " activate anyfold by default
   augroup anyfold
   autocmd!
-    autocmd Filetype html,css,python,c,cpp,rust,lua,go,javascript AnyFoldActivate
+    autocmd Filetype css,python,c,cpp,rust,lua,go,javascript AnyFoldActivate
     autocmd Filetype rust set foldignore=#/
     autocmd Filetype lua set foldignore=--
     set foldlevel=0 
