@@ -117,7 +117,13 @@ return packer.startup(function(use)
 	use("norcalli/nvim-colorizer.lua")
 	use("pseewald/vim-anyfold")
 	use("arecarn/vim-fold-cycle")
-
+	use({
+		"narutoxy/dim.lua",
+		requires = { "nvim-treesitter/nvim-treesitter", "neovim/nvim-lspconfig" },
+		config = function()
+			require("dim").setup({})
+		end,
+	})
 	-- Smooth scrolling
 	use("karb94/neoscroll.nvim")
 	-- Git
